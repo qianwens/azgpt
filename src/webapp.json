@@ -1,0 +1,22 @@
+{
+    "id": "/subscriptions/937bc588-a144-4083-8612-5f9ffbbddb14/resourceGroups/**ResourceGroup**/providers/Microsoft.Web/sites/**WebAppName**?api-version=2022-03-01",
+    "payload": {
+        "location": "**Location**",
+        "properties": {
+            "serverFarmId": "**AppServicePlanId**",
+            "reserved": false,
+            "isXenon": false,
+            "hyperV": false,  
+            "siteConfig": { 
+                "netFrameworkVersion": "v4.6",
+                "linuxFxVersion": "**Runtime**",
+                "appSettings": [],
+                "alwaysOn": true,
+                "localMySqlEnabled": false,
+                "http20Enabled": true
+            },
+            "scmSiteAlsoStopped": false,
+            "httpsOnly": false
+        }
+    }
+}
